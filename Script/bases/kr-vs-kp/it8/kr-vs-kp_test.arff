@@ -1,0 +1,360 @@
+@relation kr-vs-kp
+
+@attribute bkblk {f,t}
+@attribute bknwy {f,t}
+@attribute bkon8 {f,t}
+@attribute bkona {f,t}
+@attribute bkspr {f,t}
+@attribute bkxbq {f,t}
+@attribute bkxcr {f,t}
+@attribute bkxwp {f,t}
+@attribute blxwp {f,t}
+@attribute bxqsq {f,t}
+@attribute cntxt {f,t}
+@attribute dsopp {f,t}
+@attribute dwipd {g,l}
+@attribute hdchk {f,t}
+@attribute katri {b,n,w}
+@attribute mulch {f,t}
+@attribute qxmsq {f,t}
+@attribute r2ar8 {f,t}
+@attribute reskd {f,t}
+@attribute reskr {f,t}
+@attribute rimmx {f,t}
+@attribute rkxwp {f,t}
+@attribute rxmsq {f,t}
+@attribute simpl {f,t}
+@attribute skach {f,t}
+@attribute skewr {f,t}
+@attribute skrxp {f,t}
+@attribute spcop {f,t}
+@attribute stlmt {f,t}
+@attribute thrsk {f,t}
+@attribute wkcti {f,t}
+@attribute wkna8 {f,t}
+@attribute wknck {f,t}
+@attribute wkovl {f,t}
+@attribute wkpos {f,t}
+@attribute wtoeg {n,t}
+@attribute class {positive,negative}
+
+@data
+f,f,t,f,f,t,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,t,f,f,f,f,t,n,negative
+f,f,f,f,f,f,f,f,f,t,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,t,positive
+t,f,f,f,f,t,f,f,f,f,t,f,l,f,b,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,f,f,t,f,t,f,l,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,t,f,f,f,t,n,negative
+f,f,f,f,t,t,t,t,t,t,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+t,f,f,f,f,t,t,f,f,f,t,f,l,f,w,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,n,negative
+t,f,f,f,f,f,f,f,f,f,t,f,l,f,w,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,t,f,t,t,t,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,t,n,positive
+f,f,f,f,t,f,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,t,f,t,n,negative
+f,f,f,f,t,t,t,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,f,t,t,f,f,f,t,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,t,f,t,t,negative
+f,f,f,f,f,t,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,f,f,f,t,f,f,t,l,f,n,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,f,t,t,t,t,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,t,n,positive
+f,f,f,f,f,t,f,f,f,f,f,f,l,f,n,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,t,t,n,negative
+f,t,f,f,f,f,f,f,f,t,f,f,l,f,n,t,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,positive
+t,f,f,f,t,t,t,t,t,f,t,f,g,f,b,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,f,f,f,f,t,f,f,f,g,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,t,f,f,f,g,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,t,t,t,positive
+f,f,f,f,f,t,t,t,t,f,t,f,l,f,w,f,f,f,f,t,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,f,f,t,f,f,f,t,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,t,f,t,l,f,n,f,f,t,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,f,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,t,t,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,negative
+f,f,f,f,t,f,t,t,t,f,t,f,l,f,w,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,t,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,f,t,t,f,f,f,t,f,l,f,n,f,f,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,n,negative
+f,f,f,f,f,t,f,f,f,t,f,f,g,f,n,f,f,t,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,t,t,t,t,t,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,f,n,positive
+t,f,f,f,t,t,t,f,f,f,t,f,l,f,w,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,t,f,t,f,f,t,f,t,f,g,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,t,f,f,t,t,f,l,f,w,f,f,t,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,t,f,f,t,f,t,f,l,f,n,f,f,f,f,t,t,t,f,f,f,t,f,f,f,f,t,f,t,t,f,n,negative
+f,f,f,f,t,t,t,f,t,f,f,f,l,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,t,f,f,f,l,f,n,f,f,t,f,f,f,t,f,t,f,t,f,f,f,f,f,f,t,t,t,t,positive
+f,f,f,f,t,f,f,f,t,f,t,f,l,f,n,f,f,t,f,f,t,t,f,t,f,t,f,f,f,f,t,f,t,t,f,n,negative
+f,f,f,f,f,f,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,f,f,t,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,t,t,t,t,f,f,l,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,t,n,positive
+f,f,f,f,f,t,t,f,t,f,t,t,l,f,w,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,t,f,n,negative
+f,f,f,f,f,t,f,f,f,t,f,t,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,t,positive
+f,f,f,f,f,f,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,f,f,f,f,f,t,t,l,f,n,f,t,t,f,f,f,f,t,f,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,t,t,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,t,f,f,f,t,f,t,l,f,n,f,f,t,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,t,t,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,t,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,n,positive
+t,f,f,f,f,f,f,f,f,f,t,f,l,f,w,f,f,t,f,f,f,f,f,t,f,t,f,f,f,t,t,f,f,t,f,n,negative
+f,f,f,f,t,t,f,f,f,f,f,f,g,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,f,f,t,f,f,t,f,f,l,f,b,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,t,t,f,n,positive
+f,f,f,f,f,f,f,f,f,t,f,f,g,f,n,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,w,f,f,f,f,f,t,f,f,t,f,t,f,f,f,f,t,f,f,f,t,n,negative
+f,f,f,f,t,f,t,t,t,t,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,t,f,f,f,f,t,f,f,l,f,n,f,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,negative
+f,f,f,f,f,f,f,f,f,f,f,t,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,t,f,t,t,t,t,f,f,f,l,f,n,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,t,f,f,t,f,f,f,f,f,t,t,t,t,positive
+f,f,f,f,f,f,f,f,f,t,t,f,l,f,w,f,f,t,f,f,t,f,f,f,f,t,f,f,f,f,f,f,t,t,f,n,negative
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,w,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,t,f,f,f,t,n,negative
+f,t,f,t,f,t,f,f,f,t,t,f,l,f,b,t,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,f,f,f,f,f,f,t,l,f,n,f,f,t,f,f,t,f,f,f,f,t,f,f,f,f,f,f,t,t,t,n,negative
+f,f,f,t,f,t,t,t,t,f,t,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,n,negative
+t,t,f,f,f,f,f,f,f,f,f,f,l,f,b,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,t,f,f,f,n,positive
+f,f,f,f,f,f,f,f,t,f,t,f,l,f,w,f,f,f,f,f,f,t,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,f,t,t,t,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,f,t,t,f,f,f,t,t,g,f,n,f,f,t,f,f,f,f,t,t,f,t,f,f,f,f,f,f,f,t,f,n,negative
+f,f,f,f,f,f,f,f,f,f,f,t,l,f,n,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,negative
+f,f,f,f,t,t,f,t,t,t,t,f,l,f,w,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,n,positive
+f,f,f,f,t,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,t,t,t,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,t,n,positive
+f,t,f,f,f,f,f,f,f,t,t,f,l,f,n,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,f,f,f,f,f,f,t,g,f,n,f,f,t,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,f,f,f,f,f,t,f,g,f,b,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,t,f,f,t,f,f,f,t,f,t,f,l,f,n,f,f,f,f,t,t,t,f,f,f,t,f,f,f,t,t,f,t,f,f,n,negative
+f,f,f,f,f,t,f,f,f,f,t,f,l,f,n,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,t,f,f,n,negative
+f,t,f,f,f,f,f,f,f,t,f,t,l,f,n,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,positive
+f,f,f,f,f,t,f,f,t,f,f,t,g,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+t,f,f,f,t,f,t,t,t,t,t,f,g,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,n,positive
+f,f,f,f,f,t,f,f,f,t,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,f,t,f,f,f,t,f,f,l,f,n,f,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,f,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,t,f,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,t,t,t,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,t,negative
+f,f,f,f,t,t,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,t,t,t,positive
+f,f,f,f,t,f,t,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,t,t,f,f,t,t,f,l,f,w,f,f,t,f,t,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,positive
+t,f,f,f,f,f,f,f,f,f,t,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,f,n,negative
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,t,positive
+f,f,f,t,f,t,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,n,negative
+t,f,f,t,f,t,f,f,f,f,t,f,g,f,b,f,f,t,f,f,f,f,f,t,f,t,t,f,f,f,f,f,t,f,t,n,positive
+f,f,f,f,f,f,f,f,f,t,f,f,g,f,n,f,t,t,f,f,t,f,t,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,t,f,f,t,t,t,t,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,t,t,positive
+t,f,f,f,t,t,f,f,f,f,t,f,l,f,n,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,f,f,f,n,negative
+f,f,f,f,t,f,t,f,f,t,t,f,l,f,w,f,f,t,f,t,f,f,f,f,f,t,f,f,f,f,f,f,t,t,f,n,positive
+f,f,f,f,f,f,f,f,f,f,f,f,g,f,n,f,f,t,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,f,f,f,t,t,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,f,t,f,f,f,t,t,f,l,f,n,f,f,f,f,t,t,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+t,f,f,f,t,t,t,f,t,f,t,f,l,f,b,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,f,f,f,t,t,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,t,f,f,f,f,f,f,t,f,t,f,l,f,n,f,f,f,f,t,t,t,f,f,f,t,t,f,f,t,t,f,t,f,f,n,negative
+f,f,f,f,f,f,f,f,f,f,f,t,l,f,n,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,negative
+f,f,f,f,t,f,t,t,t,f,t,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,f,n,positive
+f,f,f,f,t,f,f,f,f,f,t,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,t,f,f,t,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,n,f,f,f,t,f,f,f,f,t,f,t,f,f,f,t,t,f,f,f,f,n,positive
+f,f,f,f,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,t,t,f,t,t,t,t,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,positive
+f,f,f,t,t,t,f,f,f,f,f,f,g,f,n,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,t,f,t,t,t,t,t,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,f,n,positive
+f,f,f,f,t,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,t,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,t,f,f,f,t,f,f,f,t,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,t,t,n,positive
+t,f,f,f,f,f,f,f,f,f,t,f,l,f,n,f,f,t,f,f,f,f,f,t,t,t,f,f,f,f,t,f,f,t,f,n,negative
+f,f,f,f,f,f,f,f,f,f,t,f,g,f,b,f,f,t,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+t,f,f,f,f,f,t,t,t,f,t,f,l,f,n,f,f,t,f,t,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,f,t,f,f,t,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,positive
+f,f,f,f,f,t,f,f,t,f,f,f,l,f,n,f,f,f,f,f,t,t,f,f,f,f,f,f,f,f,f,f,t,t,t,t,negative
+t,f,f,f,f,f,t,t,t,t,t,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,n,positive
+t,f,f,f,f,f,f,f,f,f,t,f,l,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,t,f,f,f,t,t,n,negative
+f,f,f,f,f,t,t,t,t,f,t,f,l,f,w,f,f,t,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,f,t,f,f,f,t,f,t,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,t,positive
+f,f,f,f,t,f,f,f,t,f,t,f,l,f,n,f,f,t,f,t,f,t,f,t,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,f,f,t,t,t,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,w,f,f,f,f,t,t,f,f,f,f,t,f,f,f,f,t,f,f,f,t,n,negative
+f,f,f,f,t,t,t,f,f,f,f,f,l,f,n,t,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,positive
+t,t,f,f,f,f,f,f,f,f,t,f,l,f,b,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,n,negative
+f,f,f,f,f,t,f,t,t,t,f,f,l,f,n,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,n,positive
+f,f,f,f,t,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,t,t,t,t,t,t,f,f,f,g,f,n,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,t,t,positive
+t,f,f,f,t,f,t,f,t,f,f,t,l,f,b,f,f,t,f,f,f,t,f,f,f,t,f,f,t,f,f,t,f,t,f,n,positive
+f,f,f,f,t,t,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,t,f,f,t,f,f,f,l,f,n,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,t,negative
+f,f,f,f,f,t,t,f,f,f,t,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,f,n,positive
+t,f,f,f,t,f,f,f,t,f,t,f,g,f,b,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,n,negative
+f,t,f,f,f,f,f,f,f,t,t,f,l,f,w,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,n,positive
+f,f,f,f,f,f,f,f,f,f,f,t,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,t,negative
+f,f,t,f,f,f,t,t,t,t,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,t,positive
+f,f,f,f,f,t,t,f,f,f,t,t,l,f,n,f,f,t,f,t,f,f,t,f,f,t,f,f,f,f,f,f,f,t,f,n,negative
+f,f,f,f,f,f,f,f,f,t,f,f,g,f,n,f,t,t,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,t,f,f,t,f,f,t,g,f,n,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,t,n,positive
+f,t,f,f,f,t,f,f,f,t,t,f,l,f,w,f,f,f,f,t,t,f,f,f,f,t,f,f,f,f,t,f,t,t,f,n,negative
+f,f,t,f,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,t,n,positive
+f,f,f,f,f,t,f,f,t,f,f,t,l,f,n,f,f,t,f,f,t,t,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,f,f,f,f,t,f,f,g,f,n,f,f,t,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,t,f,f,f,t,f,f,g,f,n,f,f,t,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+t,f,f,t,f,t,f,f,f,f,t,f,l,f,w,f,f,f,f,f,t,f,f,f,f,t,f,f,f,f,t,f,t,f,f,n,negative
+f,f,f,f,f,f,f,f,f,t,t,f,l,f,w,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,t,t,t,f,f,f,f,f,f,g,f,n,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,negative
+f,f,f,f,f,t,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,t,f,t,f,f,f,t,f,l,f,n,f,f,t,f,t,f,f,f,f,f,t,f,f,f,f,t,f,t,t,f,n,positive
+f,f,f,f,t,t,f,f,t,f,f,f,l,f,n,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,w,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,t,f,f,t,f,n,negative
+f,t,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,t,t,f,f,f,n,positive
+f,f,f,t,t,t,f,f,f,f,f,f,g,f,n,t,f,t,f,f,f,f,f,f,f,t,t,f,f,f,f,f,t,f,t,t,positive
+t,f,f,f,t,t,f,f,t,f,t,f,l,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,t,f,f,t,f,n,negative
+f,f,f,t,t,f,f,f,f,t,t,f,g,f,n,f,f,t,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,t,t,t,f,t,f,l,f,n,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,n,positive
+f,f,f,f,f,t,f,f,f,t,f,t,l,f,n,f,f,t,f,f,t,f,f,t,f,f,f,f,f,f,f,f,t,t,t,t,negative
+f,f,f,f,f,f,f,f,f,t,t,f,l,f,b,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,t,t,t,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,t,f,t,f,l,f,w,f,f,t,f,f,f,t,f,t,f,t,f,f,f,f,f,f,f,t,f,n,negative
+f,f,f,f,t,f,t,t,t,t,t,f,l,f,b,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,f,t,f,f,t,f,f,f,g,f,n,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,f,f,f,f,t,f,g,f,n,f,t,t,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,t,f,f,t,f,f,l,f,n,f,f,t,f,t,f,f,f,t,f,t,f,f,f,f,f,t,f,t,f,n,positive
+f,f,f,f,f,t,t,f,f,f,t,f,l,f,n,f,f,t,f,t,f,f,f,f,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,t,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,t,t,f,f,f,t,f,l,f,w,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,f,n,negative
+f,f,f,f,f,f,t,t,t,t,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,t,positive
+f,f,f,f,f,t,f,f,f,f,t,f,l,f,w,f,f,t,f,t,f,f,f,f,f,t,f,f,f,f,t,f,f,f,f,n,negative
+t,f,f,f,f,f,t,t,t,t,t,f,l,f,w,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,n,positive
+f,f,f,f,t,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,t,n,negative
+f,f,f,f,t,t,t,t,t,t,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,t,f,f,f,f,f,f,g,f,n,f,f,t,f,f,t,f,f,t,f,t,f,f,f,f,f,f,t,t,t,n,negative
+f,f,f,f,t,f,t,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,f,f,f,t,f,f,l,f,n,f,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,f,t,f,t,t,negative
+f,f,f,f,t,f,t,t,t,t,f,f,l,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,t,n,positive
+f,f,f,f,f,f,f,f,t,f,f,f,l,f,n,f,f,t,f,f,t,t,f,t,f,f,f,f,f,f,f,f,t,t,t,t,negative
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,w,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,t,f,f,g,f,n,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,t,positive
+f,f,f,f,f,f,f,f,f,f,f,t,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,t,f,f,f,t,t,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,t,f,n,positive
+f,f,f,f,t,t,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,t,f,f,f,f,f,f,f,t,f,f,l,f,n,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,positive
+f,f,f,f,t,t,t,f,f,f,t,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,f,n,negative
+t,f,t,f,f,t,t,f,f,f,t,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,f,n,positive
+f,f,f,t,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,negative
+f,f,f,f,f,f,f,f,f,t,t,f,g,f,b,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,w,f,f,f,t,f,f,f,f,t,f,t,f,f,f,t,t,f,f,f,f,n,negative
+f,f,f,f,f,f,f,f,t,f,f,t,g,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,t,t,t,positive
+f,t,f,f,f,f,f,f,t,f,f,f,l,f,n,f,f,f,f,f,t,t,f,f,f,f,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,t,t,t,f,f,f,t,f,l,f,n,t,f,t,f,t,f,f,f,f,f,t,f,f,f,f,t,f,t,f,f,n,positive
+f,f,f,f,f,t,f,f,f,f,f,f,g,f,n,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,t,t,n,negative
+f,t,f,f,f,f,f,f,f,t,f,t,l,f,n,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,positive
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,f,f,f,t,f,f,f,t,t,f,g,f,n,f,f,t,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,f,f,f,f,f,f,t,l,f,n,f,f,f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,t,f,t,t,negative
+f,f,f,f,t,f,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,f,t,f,f,f,f,f,t,t,t,t,positive
+f,f,f,t,f,t,t,t,t,t,t,f,l,f,w,f,f,f,f,f,t,f,f,t,f,t,f,f,f,f,f,f,t,t,t,n,negative
+f,f,f,f,f,t,t,t,t,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,t,t,positive
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,n,f,t,t,f,f,f,f,f,f,f,t,f,f,f,f,t,f,t,t,f,n,positive
+f,f,f,f,f,t,f,f,t,f,t,f,l,f,w,f,f,t,f,t,t,t,f,f,f,t,f,f,f,f,t,f,f,t,f,n,negative
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,t,f,f,f,f,f,f,f,t,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,t,n,positive
+f,f,f,f,f,f,f,f,f,t,f,t,l,f,n,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,f,t,t,t,f,f,t,g,f,n,f,f,t,f,f,f,f,t,t,f,t,f,f,f,f,f,t,f,t,f,n,positive
+f,f,f,f,t,f,t,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,t,t,t,positive
+f,f,f,f,f,f,f,f,t,f,t,f,l,f,n,f,f,t,f,f,t,t,f,t,f,t,f,f,f,f,t,f,t,t,f,n,negative
+f,f,f,f,f,f,t,t,t,f,t,f,l,f,n,f,f,t,f,t,f,t,f,f,f,t,f,f,f,f,f,f,f,t,f,n,positive
+f,f,f,f,f,f,f,f,t,f,t,f,l,f,w,f,f,t,f,f,f,t,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,t,f,f,f,t,t,l,f,n,f,f,f,f,t,f,f,t,t,f,t,f,f,f,f,f,f,f,f,f,n,negative
+f,f,f,f,f,f,f,f,f,t,f,t,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,t,t,t,t,t,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,positive
+t,f,f,f,f,t,t,f,f,f,t,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,n,negative
+f,f,f,f,t,f,t,f,t,f,f,t,l,f,n,f,f,f,f,f,f,t,f,f,f,t,f,f,t,f,f,t,f,t,f,n,positive
+f,f,f,t,f,t,f,f,f,f,t,f,l,f,w,f,f,f,f,t,f,f,f,t,f,t,f,f,f,f,t,f,f,f,t,n,negative
+f,f,f,f,t,f,t,t,t,t,f,f,l,f,n,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,positive
+f,f,f,f,f,t,f,f,f,t,f,f,l,f,n,f,f,t,f,f,t,f,f,t,f,f,f,f,f,f,f,f,t,t,t,t,negative
+f,f,f,f,f,t,t,t,t,t,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,t,positive
+t,t,t,f,f,f,f,f,f,f,f,f,l,t,n,t,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,t,f,f,f,n,positive
+f,t,f,t,f,t,f,f,t,f,t,f,l,f,w,t,f,f,f,t,t,t,f,f,f,t,f,f,f,f,t,f,f,f,t,n,negative
+f,f,f,f,f,f,t,f,f,f,f,f,g,f,n,f,f,t,f,t,f,f,t,f,f,t,f,f,t,f,f,t,f,t,f,n,positive
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,f,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,t,t,t,positive
+f,f,f,f,t,f,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,t,f,f,t,f,f,t,t,t,t,positive
+f,f,f,t,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,t,t,f,t,t,t,t,f,l,f,w,f,f,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,n,positive
+f,f,f,f,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,n,negative
+f,f,f,f,f,t,t,f,f,f,t,f,l,f,n,t,f,f,f,f,f,f,f,t,f,t,f,f,f,f,t,f,t,f,f,n,positive
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,f,t,f,f,t,f,f,t,f,t,t,positive
+f,t,f,f,t,f,f,f,t,f,f,f,l,f,w,t,f,f,f,t,t,t,f,t,f,t,f,f,f,f,t,t,f,f,f,n,negative
+f,f,f,f,f,f,t,t,t,f,t,f,l,f,n,f,f,t,f,t,f,t,f,f,f,t,f,f,f,f,t,f,t,t,f,n,positive
+f,f,f,f,t,f,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,f,t,t,f,f,t,t,t,l,f,n,f,t,t,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,t,f,t,t,t,t,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,positive
+f,f,f,f,f,t,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,n,negative
+t,f,t,f,f,t,t,f,f,f,t,f,g,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,f,n,positive
+f,f,t,f,t,f,t,t,t,t,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,t,positive
+f,f,f,f,t,f,f,f,t,f,t,f,l,f,n,f,f,t,f,t,f,t,f,f,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,t,f,f,g,f,n,f,t,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,t,positive
+f,f,f,f,f,f,f,f,t,f,f,t,l,f,n,f,f,f,f,f,t,t,f,f,f,t,f,f,f,f,f,f,t,t,t,t,negative
+f,f,f,f,t,t,f,t,t,t,f,f,l,f,n,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,n,positive
+f,f,f,f,t,f,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,t,f,f,f,f,f,t,t,t,t,positive
+f,f,f,f,f,f,f,f,t,f,t,f,g,f,n,f,f,t,f,f,f,t,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,t,t,f,f,t,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,t,f,t,t,t,t,f,f,l,f,n,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,t,t,positive
+f,f,t,f,t,t,t,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,t,n,positive
+f,f,f,f,t,f,t,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,t,negative
+f,f,f,t,t,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,t,t,positive
+t,f,f,f,f,f,f,f,f,f,t,f,l,f,n,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,f,f,f,t,t,t,t,f,f,f,l,f,n,t,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,positive
+f,f,f,f,f,f,f,f,t,f,f,t,g,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,t,t,t,n,positive
+f,f,f,f,t,t,t,f,f,f,t,f,l,f,w,f,f,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,n,negative
+f,f,f,f,f,f,f,f,f,t,f,f,l,f,b,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,t,t,f,n,positive
+f,f,f,f,f,t,f,f,f,f,t,f,l,f,n,t,f,t,f,f,f,f,f,f,f,t,f,f,f,f,t,f,t,f,f,n,positive
+t,f,f,f,t,f,f,f,t,f,t,f,g,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,n,negative
+t,f,f,f,t,f,t,f,t,f,f,t,l,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,t,f,f,t,f,t,f,n,positive
+f,t,f,f,f,t,f,f,f,f,f,f,l,f,n,t,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,t,t,t,negative
+f,f,f,f,f,f,t,t,t,f,f,f,l,f,n,f,f,f,f,t,f,f,t,f,f,t,f,f,f,f,t,t,f,f,f,n,positive
+f,f,f,f,f,t,t,f,t,f,t,f,l,f,n,f,f,t,f,t,f,t,f,f,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,t,f,t,g,f,n,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,negative
+f,f,f,f,t,t,t,t,t,t,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,positive
+f,t,f,f,f,f,f,f,t,f,t,f,l,f,n,t,f,f,f,t,t,t,f,f,f,t,t,f,f,t,t,f,t,f,f,n,negative
+f,f,f,f,t,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,t,f,f,t,f,t,t,positive
+f,f,f,f,t,t,t,f,f,t,f,f,g,f,n,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,t,t,t,negative
+f,f,f,f,f,f,f,f,f,t,f,t,l,f,n,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,positive
+f,f,f,f,f,f,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,t,t,f,f,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,f,f,f,t,f,t,f,l,f,n,f,f,t,f,t,f,t,f,f,f,t,f,f,f,f,t,f,t,t,f,n,positive
+f,f,f,f,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,t,n,negative
+t,f,t,f,f,f,f,f,f,f,t,f,g,t,b,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,f,n,positive
+f,f,f,f,t,f,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,t,f,f,t,f,f,f,f,f,t,t,t,t,positive
+f,t,f,f,f,f,f,f,f,t,f,t,l,f,n,f,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,f,t,t,t,t,negative
+t,f,f,f,t,f,t,f,t,f,f,t,l,f,b,f,f,f,f,f,f,t,f,t,f,t,f,f,t,f,f,t,f,t,f,n,positive
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,n,f,f,f,t,f,f,f,f,t,f,t,f,f,f,t,t,f,f,f,t,n,negative
+f,f,f,f,t,f,t,t,t,f,t,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,f,n,positive
+f,f,f,t,f,t,t,t,t,t,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,t,positive
+f,f,f,f,t,f,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,t,t,f,f,f,t,f,l,f,n,t,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,f,n,positive
+f,t,f,f,f,t,f,f,f,f,t,f,l,f,n,t,f,f,t,f,f,f,f,t,f,t,f,f,f,f,t,f,t,f,f,n,positive
+f,f,f,f,f,t,f,f,t,f,t,f,l,f,w,f,f,t,f,t,f,t,f,f,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,f,f,f,f,f,f,f,f,t,f,l,f,n,f,f,f,f,f,f,f,f,f,t,t,f,f,f,f,t,f,t,f,f,n,positive
+f,f,f,f,t,f,f,f,t,f,t,f,l,f,n,f,f,t,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,t,f,n,positive
+f,t,f,f,f,f,f,f,f,t,f,f,l,f,n,t,f,f,f,t,f,f,f,f,f,t,f,f,f,f,f,t,f,f,f,n,positive
+f,t,f,f,f,t,f,f,t,f,f,f,l,f,n,f,f,f,f,f,t,t,f,f,f,f,f,f,f,f,f,f,t,f,t,t,negative
+f,f,f,f,t,f,t,f,f,f,t,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,n,positive
+f,f,f,f,f,f,f,f,f,f,f,t,g,f,n,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+t,f,f,t,f,f,t,t,t,t,t,f,l,f,b,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,n,positive
+f,f,f,f,f,t,t,t,t,t,t,f,l,f,w,f,f,t,f,t,f,f,f,f,f,t,f,f,f,f,f,f,t,t,f,n,positive
+f,f,f,f,t,t,f,f,t,f,f,f,g,f,n,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,t,f,t,t,t,t,f,t,f,l,f,n,f,f,t,f,t,f,t,f,f,f,t,t,f,f,t,t,f,t,t,f,n,positive
+f,f,f,t,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,t,negative
+f,f,f,f,t,f,t,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,t,f,f,f,f,f,t,t,t,t,positive
+f,f,f,f,f,f,f,f,f,f,f,f,g,f,n,f,t,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,t,f,f,f,t,t,t,t,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f,f,t,n,positive
+f,f,f,t,t,t,f,f,f,f,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,t,f,f,f,f,f,t,f,t,t,positive
+f,f,f,f,f,f,f,f,t,f,f,t,l,f,n,f,f,t,f,f,t,t,f,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+t,f,t,f,f,f,t,f,f,f,f,t,l,t,b,t,f,t,f,f,f,f,f,t,f,t,f,f,t,f,f,t,f,f,f,n,positive
+f,f,f,f,f,f,t,t,t,f,f,f,g,f,n,f,f,t,f,f,f,f,t,f,f,t,f,f,f,f,f,t,f,t,f,n,positive
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,t,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,n,negative
+f,f,f,f,t,f,t,f,f,t,f,f,g,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,n,positive
+f,f,f,f,f,f,t,f,t,f,f,f,g,f,n,f,f,t,f,f,f,t,f,t,f,t,f,f,f,f,f,f,f,t,t,n,negative
+t,f,f,f,t,f,t,t,t,t,t,f,l,f,n,f,f,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,n,positive
+f,f,f,f,f,f,f,f,t,f,t,f,l,f,w,f,f,t,f,t,t,t,f,f,f,t,f,f,f,f,t,f,f,t,t,n,negative
+f,f,f,f,f,t,t,f,f,f,f,f,l,f,n,t,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,t,positive
+f,f,f,f,f,f,f,f,f,f,f,t,l,f,n,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,t,t,n,positive
+f,t,f,f,f,t,f,f,f,f,t,f,l,f,w,f,f,t,f,t,f,f,f,f,f,t,f,f,f,f,t,f,f,f,f,n,negative
+t,f,t,f,f,t,t,f,f,f,t,f,l,f,w,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,f,t,f,f,n,positive
+f,f,f,f,t,t,f,t,t,t,t,f,g,f,n,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,n,positive
+f,f,f,f,f,f,f,f,f,f,f,f,l,f,n,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,t,t,negative
+t,f,f,f,t,f,t,t,t,t,t,f,l,f,w,f,f,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,n,positive
+f,f,f,f,f,f,f,f,t,f,t,f,l,f,n,f,f,f,f,t,f,t,f,f,f,t,f,f,f,f,t,f,f,f,t,n,negative
+f,f,f,t,t,t,f,f,f,f,f,f,l,f,n,f,f,t,f,f,f,f,f,f,f,t,t,f,f,t,f,f,t,t,t,t,positive
+f,f,f,f,f,f,f,f,f,t,t,f,g,f,n,f,t,t,f,f,f,f,t,f,f,t,f,f,f,f,f,f,t,t,t,n,positive
+f,t,f,f,f,t,f,f,f,f,f,f,l,f,n,f,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,f,t,f,t,n,negative

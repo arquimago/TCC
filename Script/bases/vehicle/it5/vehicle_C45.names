@@ -1,0 +1,23 @@
+| Class feature
+class.
+
+| Features
+COMPACTNESS_discretized: enumerated("MinValue~77.6","77.6~82.2","82.2~86.8","86.8~91.4","91.4~96.0","96.0~100.6","100.6~105.19999999999999","105.19999999999999~MaxValue").
+CIRCULARITY_discretized: enumerated("MinValue~35.6","35.6~38.2","38.2~40.8","40.8~43.4","43.4~46.0","46.0~48.6","48.6~51.2","51.2~53.8","53.8~56.400000000000006","56.400000000000006~MaxValue").
+DISTANCECIRCULARITY_discretized: enumerated("MinValue~47.2","47.2~54.4","54.4~61.6","61.6~68.8","68.8~76.0","76.0~83.2","83.2~90.4","90.4~97.6","97.6~104.8","104.8~MaxValue").
+RADIUSRATIO_discretized: enumerated("MinValue~126.9","126.9~149.8","149.8~172.7","172.7~195.6","195.6~MaxValue").
+PRAXISASPECTRATIO_discretized: enumerated("MinValue~56.1","56.1~65.2","65.2~74.3","74.3~MaxValue").
+MAXLENGTHASPECTRATIO_discretized: enumerated("MinValue~7.3","7.3~12.6","12.6~MaxValue").
+SCATTERRATIO_discretized: enumerated("MinValue~127.3","127.3~142.6","142.6~157.9","157.9~173.2","173.2~188.5","188.5~203.8","203.8~219.10000000000002","219.10000000000002~234.4","234.4~MaxValue").
+ELONGATEDNESS_discretized: enumerated("MinValue~29.5","29.5~33.0","33.0~36.5","36.5~40.0","40.0~43.5","43.5~47.0","47.0~50.5","50.5~54.0","54.0~57.5","57.5~MaxValue").
+PRAXISRECTANGULAR_discretized: enumerated("MinValue~18.2","18.2~19.4","19.4~20.6","20.6~21.8","21.8~23.0","23.0~24.2","24.2~25.4","25.4~MaxValue").
+LENGTHRECTANGULAR_discretized: enumerated("MinValue~125.0","125.0~132.0","132.0~139.0","139.0~146.0","146.0~153.0","153.0~160.0","160.0~167.0","167.0~174.0","174.0~MaxValue").
+MAJORVARIANCE_discretized: enumerated("MinValue~149.0","149.0~168.0","168.0~187.0","187.0~206.0","206.0~MaxValue").
+MINORVARIANCE_discretized: enumerated("MinValue~267.4","267.4~350.8","350.8~434.20000000000005","434.20000000000005~517.6","517.6~601.0","601.0~684.4000000000001","684.4000000000001~767.8000000000001","767.8000000000001~851.2","851.2~MaxValue").
+GYRATIONRADIUS_discretized: enumerated("MinValue~124.9","124.9~140.8","140.8~156.7","156.7~172.6","172.6~188.5","188.5~204.4","204.4~220.3","220.3~236.2","236.2~252.1","252.1~MaxValue").
+MAJORSKEWNESS_discretized: enumerated("MinValue~66.6","66.6~74.2","74.2~81.8","81.8~89.4","89.4~MaxValue").
+MINORSKEWNESS_discretized: enumerated("MinValue~2.2","2.2~4.4","4.4~6.6000000000000005","6.6000000000000005~8.8","8.8~11.0","11.0~13.200000000000001","13.200000000000001~15.400000000000002","15.400000000000002~17.6","17.6~MaxValue").
+MINORKURTOSIS_discretized: enumerated("MinValue~4.1","4.1~8.2","8.2~12.299999999999999","12.299999999999999~16.4","16.4~20.5","20.5~24.599999999999998","24.599999999999998~MaxValue").
+MAJORKURTOSIS_discretized: enumerated("MinValue~179.0","179.0~182.0","182.0~185.0","185.0~188.0","188.0~191.0","191.0~194.0","194.0~197.0","197.0~MaxValue").
+HOLLOWSRATIO_discretized: enumerated("MinValue~184.0","184.0~187.0","187.0~190.0","190.0~193.0","193.0~196.0","196.0~199.0","199.0~MaxValue").
+class: nominal(positive,negative).

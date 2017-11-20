@@ -1,0 +1,41 @@
+| Class feature
+class.
+
+| Features
+bkblk: nominal(f,t).
+bknwy: nominal(f,t).
+bkon8: nominal(f,t).
+bkona: nominal(f,t).
+bkspr: nominal(f,t).
+bkxbq: nominal(f,t).
+bkxcr: nominal(f,t).
+bkxwp: nominal(f,t).
+blxwp: nominal(f,t).
+bxqsq: nominal(f,t).
+cntxt: nominal(f,t).
+dsopp: nominal(f,t).
+dwipd: nominal(g,l).
+hdchk: nominal(f,t).
+katri: nominal(b,n,w).
+mulch: nominal(f,t).
+qxmsq: nominal(f,t).
+r2ar8: nominal(f,t).
+reskd: nominal(f,t).
+reskr: nominal(f,t).
+rimmx: nominal(f,t).
+rkxwp: nominal(f,t).
+rxmsq: nominal(f,t).
+simpl: nominal(f,t).
+skach: nominal(f,t).
+skewr: nominal(f,t).
+skrxp: nominal(f,t).
+spcop: nominal(f,t).
+stlmt: nominal(f,t).
+thrsk: nominal(f,t).
+wkcti: nominal(f,t).
+wkna8: nominal(f,t).
+wknck: nominal(f,t).
+wkovl: nominal(f,t).
+wkpos: nominal(f,t).
+wtoeg: nominal(n,t).
+class: nominal(positive,negative).
