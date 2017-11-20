@@ -11,3 +11,5 @@ M-PSO-LU - Algoritmo gerado para este trabalho para teste de hipótese, adiciona
 M-PSO-OT - Algoritmo gerado por este trabalho como otimização final, separando a base de dados e obtendo um ganho de tempo de no mínimo 20%
 
 Script feito em Python 3.6 para automação dos experimentos, alternando as bases de dados, executando cálculos de métricas e gerando relatório
+
+TCC-revisado.pdf - versão final do TCC entregue após modificações sugeridas pela banca
